@@ -11,7 +11,7 @@ exclude.append("coreml")
 let package = Package(
     name: "SwiftWhisper",
     products: [
-        .library(name: "SwiftWhisper", targets: ["SwiftWhisper"])
+        .library(name: "SwiftWhisperJ", targets: ["SwiftWhisper"])
     ],
     targets: [
         .target(name: "SwiftWhisper", dependencies: [.target(name: "whisper_cpp")]),
